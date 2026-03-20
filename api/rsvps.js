@@ -29,10 +29,4 @@ module.exports = async function (req, res) {
 };
 ```
 
-Daarna in Vercel → **Settings** → **Environment Variables** — voeg deze 3 nieuwe variabelen toe:
 
-| Name | Value |
-|------|-------|
-| `NB_CLIENT_ID` | jouw Client ID |
-| `NB_CLIENT_SECRET` | jouw Client Secret |
-| `NB_REDIRECT_URI` | `https://familiedag-dashboard.vercel.app/api/auth/callback` |
